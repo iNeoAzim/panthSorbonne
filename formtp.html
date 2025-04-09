@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tpFormulaire</title>
+</head>
+<body>
+    <h1>Calculateur de salaire Net apres Salaire Brut</h1>
+    <form action="formtp.html" method="post">
+        Salaire Brut <input type="text" name="Salaire Brut" id="sal" >
+        <br>
+        Impots sur revenue<input type="text" name="Impots sur revenue" id="rev">
+        <br>
+        Assurance <input type="text" name="Assurance" id="ass">
+        <br>
+        Pension <input type="text" name="Pension" id="pen">
+        <br>
+        Formation <input type="text" name="Formation" id="forma">
+        <br>
+        Alocation <input type="checkbox" name="Alocation" id="alo">
+        <br>
+        100 KM <input type="checkbox" name="100 KM" id="100km">
+        <br>
+        Nombre de personnes à charge <input type="number" name="dependents" id="dependents" min="0">
+        <br>
+        Salaire Net <input type="text" name="salaireNet" id="salN">
+        <br>
+        <input type="radio" name="Genre" id="Homme">Homme
+        <input type="radio" name="Genre" id="Femme">Femme
+        <br>
+        <button type="button" id="calculate">Calculer</button>
+        <button type="reset" name="Effacer">Effacer</button>
+    </form>
+</body>
+</html>
